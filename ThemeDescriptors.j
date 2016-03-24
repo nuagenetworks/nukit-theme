@@ -53,7 +53,7 @@
 @import "NUColors.j"
 
 
-CPThemeStateError       = CPThemeState("CPThemeStateError");
+NUThemeStateError       = CPThemeState("NUThemeStateError");
 
 var themedTextFieldValues          = nil,
     themedWindowViewValues         = nil,
@@ -418,7 +418,7 @@ var themedTextFieldValues          = nil,
         // Bezeled Normal
         [@"bezel-color",                bezelColor,                                             CPThemeStateBezeled],
         [@"bezel-color",                bezelColorEditing,                                      [CPThemeStateBezeled, CPThemeStateEditing]],
-        [@"bezel-color",                bezelColorError,                                        [CPThemeStateBezeled, CPThemeStateError]],
+        [@"bezel-color",                bezelColorError,                                        [CPThemeStateBezeled, NUThemeStateError]],
         [@"bezel-color",                NUFlatColorWhite,                                       [CPThemeStateBezeled, CPThemeStateDisabled]],
         [@"content-inset",              CGInsetMake(4.0, 0.0, 0.0, 6.0),                        CPThemeStateBezeled],
         [@"nib2cib-adjustment-frame",   CGRectMake(0.0, 0.0, 0.0, 0.0),                         CPThemeStateBezeled],
