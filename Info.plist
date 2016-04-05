@@ -5,7 +5,7 @@
 	<key>CPApplicationDelegateClass</key>
 	<string>BKShowcaseController</string>
 	<key>CPBundleName</key>
-	<string>NUAristo</string>
+	<string>NUFlat</string>
 	<key>BKLearnMoreURL</key>
 	<string>http://cappuccino.org/aristo</string>
 	<key>BKLearnMoreButtonTitle</key>
