@@ -754,6 +754,7 @@ var themedTextFieldValues          = nil,
             [@"nib2cib-adjustment-frame",   CGRectMake(2.0, -1.0, 0.0, 0.0)],
 
             // small
+            [@"font",                       [CPFont systemFontOfSize:11.0],     CPThemeStateControlSizeSmall],
             [@"image",                      smallImageNormal,                   [CPThemeStateControlSizeSmall, CPThemeStateNormal]],
             [@"image",                      smallImageHighlighted,              [CPThemeStateControlSizeSmall, CPThemeStateNormal, CPThemeStateHighlighted]],
             [@"image",                      smallImageSelected,                 [CPThemeStateControlSizeSmall, CPThemeStateSelected]],
@@ -765,6 +766,7 @@ var themedTextFieldValues          = nil,
             [@"nib2cib-adjustment-frame",   CGRectMake(3.0, -2.0, 0.0, 0.0),     CPThemeStateControlSizeSmall],
 
             // mini
+            [@"font",                       [CPFont systemFontOfSize:10.0],     CPThemeStateControlSizeMini],
             [@"image",                      miniImageNormal,                    [CPThemeStateControlSizeMini, CPThemeStateNormal]],
             [@"image",                      miniImageHighlighted,               [CPThemeStateControlSizeMini, CPThemeStateNormal, CPThemeStateHighlighted]],
             [@"image",                      miniImageSelected,                  [CPThemeStateControlSizeMini, CPThemeStateSelected]],
